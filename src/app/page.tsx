@@ -24,7 +24,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <LiveStats />
-      <LiveDonationFeed />
+      {/* <LiveDonationFeed /> */}
       <Architecture />
       <Vision />
       <Footer />
