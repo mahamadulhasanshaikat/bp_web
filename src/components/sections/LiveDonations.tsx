@@ -164,7 +164,7 @@ export function LiveDonationFeed() {
         <div className="grid lg:grid-cols-12 gap-8 items-start">
 
           {/* বাম পাশ: ডোনেশন কার্ড */}
-          <div className="lg:col-span-5 bg-white border border-slate-200/80 rounded-[32px] p-6 sm:p-8 shadow-xl shadow-slate-200/40 relative">
+          <div className="lg:col-span-5 bg-white border border-slate-200/80 rounded-4xl p-6 sm:p-8 shadow-xl shadow-slate-200/40 relative">
             <div className="flex items-center justify-between pb-5 border-b border-slate-100">
               <div>
                 <span className="text-[11px] font-bold uppercase tracking-wider text-rose-600 block">Direct Contribution</span>
@@ -331,7 +331,7 @@ export function LiveDonationFeed() {
                 </span>
               </div>
 
-              <div className="space-y-2.5 max-h-[360px] overflow-y-auto pr-1">
+              <div className="space-y-2.5 max-h-90 overflow-y-auto pr-1">
                 {backers.length === 0 ? (
                   <div className="bg-white border border-slate-200/70 rounded-2xl p-8 text-center text-slate-400 text-xs">
                     এখনো কোনো অনুদান ভেরিফাই করা হয়নি। প্রথম ব্যাকর হিসেবে অংশ নিন!
