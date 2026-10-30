@@ -13,7 +13,7 @@ export function Footer() {
 
           {/* Logo & Platform Tagline */}
           <div className="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
-            <div className="w-10 h-10 bg-gradient-to-tr from-[#E52D27] to-[#B31217] rounded-xl flex items-center justify-center text-white shadow-md shadow-red-500/20">
+            <div className="w-10 h-10 bg-linear-to-tr from-[#E52D27] to-[#B31217] rounded-xl flex items-center justify-center text-white shadow-md shadow-red-500/20">
               <Droplets className="w-5 h-5 fill-white" />
             </div>
             <div>
