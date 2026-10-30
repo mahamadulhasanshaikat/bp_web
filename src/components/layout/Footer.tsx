@@ -37,17 +37,17 @@ export function Footer() {
             {/* Version Badge */}
             <div className="inline-flex items-center gap-1.5 bg-slate-50 border border-slate-200/80 px-3 py-1 rounded-full text-xs font-semibold text-slate-600">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-              <span>Version: <strong>v1.0.2 (Production)</strong></span>
+              <span>Version: <strong>v1.0.5 (Production)</strong></span>
             </div>
 
             {/* MHS Tech Labs Outbound Link */}
             <a
-              href="https://mhstechlabs.pages.dev/"
+              href="https://mhstechlab.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 bg-slate-950 hover:bg-slate-800 text-white px-3.5 py-1 rounded-full text-xs font-bold transition shadow-sm hover:shadow group"
             >
-              <span>Built by <strong>MHS Tech Labs</strong></span>
+              <span>Built by <strong>MHS Tech Lab</strong></span>
               <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-white transition-colors" />
             </a>
           </div>

@@ -18,7 +18,7 @@ export function Vision() {
             </div>
 
             {/* মিশন */}
-            <div className="bg-white/[0.03] p-5 rounded-2xl border border-white/5 space-y-2">
+            <div className="bg-white/3 p-5 rounded-2xl border border-white/5 space-y-2">
               <div className="flex items-center gap-2">
                 <HeartHandshake className="w-4 h-4 text-red-400 shrink-0" />
                 <h3 className="text-base font-bold text-red-400">Our Mission • আমাদের লক্ষ্য</h3>
@@ -32,7 +32,7 @@ export function Vision() {
             </div>
 
             {/* ভিশন */}
-            <div className="bg-white/[0.03] p-5 rounded-2xl border border-white/5 space-y-2">
+            <div className="bg-white/3 p-5 rounded-2xl border border-white/5 space-y-2">
               <div className="flex items-center gap-2">
                 <Eye className="w-4 h-4 text-red-400 shrink-0" />
                 <h3 className="text-base font-bold text-red-400">Our Vision • আমাদের রূপকল্প</h3>
@@ -80,7 +80,7 @@ export function Vision() {
                     href="mailto:mhstechlab@gmail.com"
                     className="font-semibold text-white hover:text-red-400 underline decoration-white/30 hover:decoration-red-400 transition-all inline-flex items-center gap-1.5"
                   >
-                    <span>mhstechlab@gmail.com</span>
+                    <span>contact@mhstechlab.com</span>
                   </a>
                 </div>
               </div>
@@ -91,12 +91,12 @@ export function Vision() {
                 <div>
                   <span className="text-slate-400 block text-[10px]">Engineered & Maintained By</span>
                   <a
-                    href="https://mhstechlabs.pages.dev/"
+                    href="https://mhstechlab.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-white hover:text-red-400 underline decoration-white/30 hover:decoration-red-400 transition-all inline-flex items-center gap-1.5"
                   >
-                    <span>MHS Tech Labs</span>
+                    <span>MHS Tech Lab</span>
                     <ExternalLink className="w-3 h-3 text-slate-400" />
                   </a>
                 </div>
@@ -104,7 +104,7 @@ export function Vision() {
             </div>
 
             <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400">
-              <span>Version 1.0.2 (Production)</span>
+              <span>Version 1.0.5 (Production)</span>
               <span className="text-emerald-400 font-semibold">• 100% Non-Profit</span>
             </div>
           </div>

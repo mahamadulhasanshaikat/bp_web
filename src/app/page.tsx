@@ -1,11 +1,10 @@
 import type { Metadata } from 'next';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
-import { Hero } from '@/components/sections/Hero';
 import { LiveStats } from '@/components/sections/LiveStats';
 import { Architecture } from '@/components/sections/Architecture';
 import { Vision } from '@/components/sections/Vision';
-import { LiveDonationFeed } from '@/components/sections/LiveDonations';
+import HeroSection from '@/components/sections/HeroSection';
 
 export const metadata: Metadata = {
   title: 'Blood Point | Instant Voluntary Blood Donation Platform',
@@ -22,9 +21,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#FDFDFE] text-slate-900 selection:bg-red-500 selection:text-white">
       <Navbar />
-      <Hero />
-      <LiveStats />
-      {/* <LiveDonationFeed /> */}
+      <HeroSection />
       <Architecture />
       <Vision />
       <Footer />
